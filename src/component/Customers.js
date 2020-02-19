@@ -37,7 +37,7 @@ constructor(props) {
 // }
 
 customersAPI() {
-  fetch("http://localhost:9000/customers")
+  fetch("http://35.154.102.119:9000/customers")
       .then(res => res.json())
       .then(res => this.setState({ custRes: res}));
 }
