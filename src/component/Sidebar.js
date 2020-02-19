@@ -34,9 +34,9 @@ class SideNav extends React.Component {
         <StyledSideNav>
           export const NavigationBar = () => (
   
-          <Nav.Item><Nav.Link href="http://localhost:3000/">Dashboard</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="http://localhost:3000/customers">Customers</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="http://localhost:3000/CreateReceiveOnlyUser">Create Recive Only User</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="http://35.154.102.119:3000/">Dashboard</Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link href="http://35.154.102.119:3000/customers">Customers</Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link href="http://35.154.102.119:3000/CreateReceiveOnlyUser">Create Recive Only User</Nav.Link></Nav.Item>
         
       
 
