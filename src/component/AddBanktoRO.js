@@ -23,7 +23,7 @@ export default class CreateReceiveOnlyUser extends Component {
         const id = "1cd835e8-4a88-4196-8d5f-23853351cab2";
         e.preventDefault()
         console.log(this.state)
-        axios.post('http://localhost:9000/addBRO/'+id, this.state)
+        axios.post('http://35.154.102.119:9000/addBRO/'+id, this.state)
         .then(response => {
             console.log(response)
         })
